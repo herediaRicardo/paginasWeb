@@ -1,0 +1,57 @@
+@font-face {
+    font-family: milker;
+    src: url(../assets/milker.otf);
+}
+@font-face {
+    font-family: montserrat;
+    src: url(../assets/Montserrat-Medium.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: milker;
+}
+.container{
+height: 100vh;
+width: 100vw;
+background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.estructura{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+   color: rgb(255, 255, 255);
+   padding: 5vh;
+   font-size: 5vw; 
+   text-align: center;
+}
+
+h2{
+    color: white;
+    padding: 2vh;
+    text-align: center;
+    font-size: 2vw;
+    font-family: "montserrat";
+}
+
+.caja-img{
+    border-radius: 25px;    
+}
+
+img{
+    height: 500px;
+    border-radius: 25px;
+    border: 3px solid white;
+}
